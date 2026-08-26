@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy | Atlas</title>
+<meta name="description" content="Privacy Policy for the Atlas personal finance app.">
+<style>
+  :root {
+    --bg-top: #08090B;
+    --bg-bottom: #111317;
+    --surface: #171A20;
+    --hairline: rgba(255,255,255,0.09);
+    --gold: #D4AF37;
+    --gold-light: #F3D17C;
+    --text-primary: #FFFFFF;
+    --text-secondary: rgba(255,255,255,0.62);
+    --text-tertiary: rgba(255,255,255,0.40);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
+    color: var(--text-primary);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 64px 24px 96px; }
+  .eyebrow {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 0 8px;
+    background: linear-gradient(90deg, var(--gold-light), var(--gold));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .updated { color: var(--text-tertiary); font-size: 13px; margin-bottom: 40px; }
+  h2 {
+    font-size: 19px;
+    font-weight: 600;
+    margin: 40px 0 12px;
+    color: var(--text-primary);
+  }
+  p, li { color: var(--text-secondary); font-size: 15px; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--hairline);
+    border-radius: 16px;
+    padding: 20px 24px;
+    margin: 24px 0;
+  }
+  .card p { margin: 0; color: var(--text-primary); font-size: 14px; }
+  a { color: var(--gold); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  footer { margin-top: 56px; padding-top: 24px; border-top: 1px solid var(--hairline); color: var(--text-tertiary); font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="eyebrow">Legal</p>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: July 8, 2026</p>
+
+  <div class="card">
+    <p>The short version: Atlas doesn't collect your data. Everything you enter stays on your device, or in your own private iCloud account if you turn on sync. We don't have a server, we don't run analytics, and we don't see your financial information — ever.</p>
+  </div>
+
+  <h2>Information We Collect</h2>
+  <p>None. Atlas does not operate any servers and does not collect, transmit, or have access to any information you enter — account balances, transactions, bills, debts, goals, or your name. There is no account creation, no sign-up, and no email address required to use the app.</p>
+
+  <h2>Where Your Data Lives</h2>
+  <ul>
+    <li><strong>On your device.</strong> All financial data you enter is stored locally in the app's private storage, protected by standard iOS data protection.</li>
+    <li><strong>In your own iCloud account (optional).</strong> If you enable sync, your data is stored in your private CloudKit database — a part of your personal iCloud account that only you can access. Apple provides this infrastructure; Atlas's developer has no access to it, no visibility into it, and no ability to read it.</li>
+  </ul>
+
+  <h2>Face ID &amp; Touch ID</h2>
+  <p>If you enable the app lock, Atlas uses Apple's LocalAuthentication framework to verify your identity using Face ID, Touch ID, or your device passcode. This authentication happens entirely on your device via Apple's system frameworks — Atlas never receives, stores, or transmits any biometric data.</p>
+
+  <h2>Notifications</h2>
+  <p>Bill and cash-flow alerts are scheduled and delivered entirely on-device using Apple's local notification system. No data is sent to any server to generate these reminders.</p>
+
+  <h2>Bank Connections</h2>
+  <p>Atlas does not currently connect to bank accounts. If bank-linking is added in a future version, this policy will be updated before that feature is released to clearly disclose what data would be involved and how it would be handled.</p>
+
+  <h2>Analytics &amp; Advertising</h2>
+  <p>Atlas contains no analytics SDKs, no advertising SDKs, no crash reporting services, and no third-party tracking of any kind.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>Atlas is not directed at children under 13, and we do not knowingly collect information from children, consistent with the fact that we do not collect information from anyone.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>If Atlas's data practices change — for example, if bank-linking or a cloud backend is introduced — this page will be updated and the "Last updated" date above will reflect the revision.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy can be sent to <a href="mailto:atlasfinancialllc@outlook.com">atlasfinancialllc@outlook.com</a>.</p>
+
+  <footer>
+    &copy; 2026 Atlas. This page is provided for use with Atlas's App Store listing.
+  </footer>
+</div>
+</body>
+</html>
