@@ -1,0 +1,4 @@
+__pycache__/
+.pytest_cache/
+calibration_*.png
+config.json
